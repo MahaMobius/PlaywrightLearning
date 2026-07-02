@@ -7,5 +7,8 @@ test('Amazon add to cart verification', async ({page})=>{
     await page.waitForLoadState();
     await expect.page.locator('[class="a-size-base a-spacing-small a-spacing-top-small a-text-normal"]').toContainText('results for');
 
+
+
+    //git checking
 })
 
