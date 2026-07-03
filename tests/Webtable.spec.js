@@ -22,6 +22,6 @@ test('webtable handling',async ({page} ) =>{
    //To get header 
    const Header=await page.locator('//table/thead/tr/th').allTextContents();
    console.log(Header);
-
+// changes for checking fetch in git
          
 })
