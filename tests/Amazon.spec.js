@@ -9,7 +9,7 @@ test('Amazon add to cart verification', async ({page})=>{
    await page.keyboard.press('Enter');
 //git pull oee cchange
 let name1="Mahalakshmi";
-let name2="sarath vishwanath";
+let name2="krish";
 let concat=name1.concat(name2);
 console.log(concat);
     //git checking
