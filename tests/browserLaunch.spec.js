@@ -9,7 +9,7 @@ test("Launching browser",async({page}) =>{
     console.log(await page.title());  //to get title of page
     //to take screenshot
     await page.screenshot({path:'Screenshot/facebookpageSS.png'})
-    let name="test";
+    //let name="test";
 
 })
  test.only("Recording video", async ({browser})=>{
