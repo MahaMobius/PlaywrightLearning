@@ -11,6 +11,8 @@ test("Launching browser",async({page}) =>{
     await page.screenshot({path:'Screenshot/facebookpageSS.png'})
     //let name="test";
 
+    //making cganges for jenkins check
+
 })
  test.only("Recording video", async ({browser})=>{
    
